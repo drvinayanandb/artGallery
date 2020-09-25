@@ -1,0 +1,118 @@
+html {
+  min-width: 800px;
+  position: relative;
+}
+
+body {
+  background-color: white;
+  padding-left: 50px;
+
+
+}
+
+p {
+  color: #303030;
+}
+
+cimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  width: 400px;
+}
+
+img {
+  position: absolute;
+  left: 350px;
+  top: 100px;
+  width: 400px;
+}
+
+
+.heading {
+  color: #50A;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  display: block;
+  white-space: nowrap;
+
+
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+
+}
+
+.imageDescription {
+  margin-top: 0;
+  position: absolute;
+  top: 430px;
+  left: 900px;
+  opacity: 0;
+  white-space: nowrap;
+
+  font-size: 2rem;
+  font-style: italic;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.navigation {
+  position: absolute;
+  right: 50px;
+  top: 35px;
+  width: 300px;
+}
+
+.navElements {
+  display: inline;
+  margin-left: 30px;
+  font-style: italic;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  padding:3px;
+
+}
+.subHeading {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 1.25rem;
+  font-style: italic;
+  text-align:justify;
+  line-height: 1.5;
+
+
+}
+
+#aboutMePage {
+  position: absolute;
+  opacity:0;
+  top: 100px;
+  width: 500px;
+  left: 100px;
+
+}
+
+#contactPage {
+  position: absolute;
+  opacity:0;
+  top: 100px;
+  left: 700px;
+  width: 400px;
+
+}
+
+#stoneImage{
+  opacity: 1;
+}
